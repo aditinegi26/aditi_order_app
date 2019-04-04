@@ -31,7 +31,7 @@ Rest API for creating, fetching and taking the order.
 1. You can run `docker-compose up` from terminal
 2. Server is accessible at `http://localhost:8080`
 3. Run manual testcase suite:
-	- Integration Tests: `docker exec manage_order_php php ./vendor/phpunit/phpunit/phpunit /var/www/html/tests/Feature/OrderFeatureTest.php` &
+	- Integration Tests: `docker exec manage_order_php php ./vendor/phpunit/phpunit/phpunit tests/Feature/OrderTest.php` &
 	- Unit Tests: `docker exec manage_order_php php ./vendor/phpunit/phpunit/phpunit /var/www/html/tests/Unit`
 
 ## Code Structure
@@ -61,7 +61,7 @@ code folder contain application code.
 
 ## Swagger integration
 
-1. Open URL for API demo `http://localhost:8080/api-docs`
+1. Open URL for API demo `http://localhost:8080/api-documentation`
 2. Here you can perform all API operations like GET, UPDATE, POST
 
 ## API Reference Documentation
